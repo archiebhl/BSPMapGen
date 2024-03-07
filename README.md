@@ -1,8 +1,5 @@
 # BSPMapGen
-A C++ library for generating dungeon maps using the Binary Space Partitioning (BSP) algorithm.
-
-## Description
-BSPMapGen is a C++ library that provides functionality for generating dungeon maps using the Binary Space Partitioning algorithm. It allows developers to create randomized dungeon layouts with customizable parameters such as map size, minimum room size, and depth of the BSP tree.
+A C++ library that provides functionality for generating dungeon maps using the Binary Space Partitioning algorithm. It allows developers to create randomized dungeon layouts with customizable parameters.
 
 ## Usage
 1. **Include the Library**:
