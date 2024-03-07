@@ -66,6 +66,9 @@ void Node::split(int minRoomSize, int depth, std::vector<Node*>& nodes){
     this->right->split(minRoomSize, depth - 1, nodes);
 }
 
+/*
+Printing methods
+*/
 void Map::printTreeLeafs(const std::vector<Node*>& nodes) {
     std::cout << "Leaf Nodes:\n";
     
@@ -76,9 +79,6 @@ void Map::printTreeLeafs(const std::vector<Node*>& nodes) {
     }
 }
 
-/*
-Printing methods
-*/
 void Map::printDungeonLayout(const std::vector<Node*>& nodes, int width, int height) {
     std::vector<std::vector<char>> dungeon(height, std::vector<char>(width, '.')); // Initialize dungeon with '.'
     
