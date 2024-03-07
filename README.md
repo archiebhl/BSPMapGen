@@ -15,7 +15,7 @@ BSPMapGen is a C++ library that provides functionality for generating dungeon ma
      ```
 
 3. **Run the Program**:
-   - Execute the generated executable file:
+   - Execute the generated executable:
      ```
      ./main.exe
      ```
@@ -43,3 +43,10 @@ int main() {
     
     return 0;
 }
+```
+
+## To Do
+1. Implement automatic generation of pathways between rooms.
+2. Add more functionality to improve usage and customisability. 
+3. Add support for generating more complex dungeon layouts.
+4. Explore options for optimizing the BSP algorithm for better performance on larger maps.
