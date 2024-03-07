@@ -10,7 +10,6 @@ Node::Node(int _x, int _y, int _width, int _height) : x(_x), y(_y), width(_width
 Node::~Node(){
     if (left) delete left;
     if (right) delete right;
-    // to do: not sure if the part below is needed
     left = nullptr;
     right = nullptr;
 }
